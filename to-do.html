@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo-web-app</title>
+    <link rel="stylesheet" href="to-do.css">
+  </head>
+  <body>
+    <div class="container">
+      <p class="instruction"><h1>Please enter your list of works below:</h1></p>
+
+      <div class="todo-input-grid">
+        <input placeholder="Todo name" class="js-name-input name-input" />
+        <input type="date" class="js-due-date-input due-date-input" />
+        <button class="add-todo-button js-add-todo-button">Add</button>
+      </div>
+
+      <div class="todo-list-container js-todo-container">
+        <p class="todo-heading"><b>This is your Todo list:</b></p>
+        <ol class="js-todo-list"></ol>
+      </div>
+    </div>
+
+    <script src="to-do.js"></script>
+  </body>
+</html>
